@@ -55,7 +55,7 @@ tmp/
 temp/
 
 # Documentation files (should not be deployed to GitHub Pages)
-README.md
+
 
 # Claude Code configuration files
 CLAUDE.md
