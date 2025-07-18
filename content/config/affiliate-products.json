@@ -1,0 +1,125 @@
+{
+  "otter-ai": {
+    "id": "otter-ai",
+    "name": "Otter.ai Pro",
+    "provider": "a8net",
+    "templateUrl": "https://px.a8.net/svt/ejp?a8mat={AFFILIATE_ID}&pid=s00000000000000&vc_url=https%3A//otter.ai/pricing",
+    "directUrl": "https://otter.ai/pricing",
+    "price": {
+      "monthly": 16.99,
+      "currency": "USD"
+    },
+    "category": ["meeting-notes"],
+    "description": "英語・日本語対応の高精度文字起こしツール",
+    "features": [
+      "95%以上の文字起こし精度",
+      "リアルタイム処理",
+      "複数話者の自動識別",
+      "Zoom、Teams連携"
+    ],
+    "pros": [
+      "高精度な文字起こし",
+      "リアルタイム処理でラグが少ない",
+      "モバイルアプリで外出先でも使用可能"
+    ],
+    "cons": [
+      "専門用語の認識に課題",
+      "月額料金が発生"
+    ],
+    "rating": 4.5,
+    "isActive": true,
+    "trackingPixel": "https://www15.a8.net/0.gif?a8mat={AFFILIATE_ID}&pid=s00000000000001"
+  },
+  "chatgpt-plus": {
+    "id": "chatgpt-plus",
+    "name": "ChatGPT Plus",
+    "provider": "moshimo",
+    "templateUrl": "https://af.moshimo.com/af/c/click?a_id={AFFILIATE_ID}&p_id=000&pc_id=000&pl_id=000&url=https%3A//openai.com/chatgpt/pricing",
+    "directUrl": "https://openai.com/chatgpt/pricing",
+    "price": {
+      "monthly": 20,
+      "currency": "USD"
+    },
+    "category": ["meeting-notes", "document-creation"],
+    "description": "高度な文章理解・要約能力を持つAIアシスタント",
+    "features": [
+      "高度な文章理解・要約能力",
+      "カスタムプロンプト対応",
+      "継続的な学習で精度向上",
+      "多言語対応"
+    ],
+    "pros": [
+      "議事録以外の営業資料作成にも活用可能",
+      "24時間いつでも利用可能",
+      "複数の言語に対応"
+    ],
+    "cons": [
+      "長文処理に制限",
+      "インターネット接続必須"
+    ],
+    "rating": 4.8,
+    "isActive": true,
+    "trackingPixel": "https://i.moshimo.com/af/i/impression?a_id={AFFILIATE_ID}&p_id=000&pc_id=000&pl_id=000"
+  },
+  "notion-ai": {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "provider": "rakuten",
+    "templateUrl": "https://af.rakuten.co.jp/maf?url=https%3A//www.notion.so/pricing&a_id={AFFILIATE_ID}&p_id=000&pc_id=000&pl_id=000",
+    "directUrl": "https://www.notion.so/pricing",
+    "price": {
+      "monthly": 10,
+      "currency": "USD"
+    },
+    "category": ["meeting-notes", "document-creation", "data-analysis"],
+    "description": "議事録のデータベース化とチーム共有が可能なワークスペース",
+    "features": [
+      "議事録のデータベース化",
+      "自動タグ付け・分類",
+      "チーム共有機能",
+      "プロジェクト管理との連携"
+    ],
+    "pros": [
+      "情報の一元管理",
+      "強力な検索機能",
+      "プロジェクト管理との連携"
+    ],
+    "cons": [
+      "初期設定が複雑",
+      "習得に時間が必要"
+    ],
+    "rating": 4.3,
+    "isActive": true,
+    "trackingPixel": "https://r10.to/tracking?a_id={AFFILIATE_ID}&p_id=000&pc_id=000&pl_id=000"
+  },
+  "claude-pro": {
+    "id": "claude-pro",
+    "name": "Claude Pro",
+    "provider": "direct",
+    "templateUrl": "https://claude.ai/upgrade?ref={AFFILIATE_ID}",
+    "directUrl": "https://claude.ai/upgrade",
+    "price": {
+      "monthly": 20,
+      "currency": "USD"
+    },
+    "category": ["document-creation", "data-analysis"],
+    "description": "長文処理に優れたAIアシスタント",
+    "features": [
+      "長文処理に優れた能力",
+      "ファイルアップロード対応",
+      "コード生成・分析",
+      "多様な文書作成支援"
+    ],
+    "pros": [
+      "長文の処理能力が高い",
+      "ファイルをアップロードして分析可能",
+      "自然な日本語での対話"
+    ],
+    "cons": [
+      "月額料金が発生",
+      "一部機能に制限"
+    ],
+    "rating": 4.6,
+    "isActive": true
+  }
+}

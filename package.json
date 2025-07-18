@@ -1,0 +1,41 @@
+{
+  "name": "onayami-navi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "export": "next build && next export",
+    "deploy": "npm run export && touch out/.nojekyll"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.4.1",
+    "@types/mdx": "^2.0.13",
+    "gray-matter": "^4.0.3",
+    "next": "15.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.1",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
