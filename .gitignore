@@ -60,3 +60,4 @@ README.md
 # Claude Code configuration files
 CLAUDE.md
 settings.json
+settings.local.json
